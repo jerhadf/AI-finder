@@ -54,12 +54,12 @@ Using similarity score with GPT-2: Another way to classify papers as AI-relevant
 Text generation to expand the initial dataset for few-shot learning: Given only 20 examples, it is hard to fine-tune models like GPT-2, and they have to make predictions based on very limited information. Feeding these limited examples into a language model like GPT-2 to generate more examples could expand the sample-set and improve accuracy. Further, these methods are often still generalizable. 
 Using GPT-2 to Create Synthetic Data to Improve the Prediction Performance of NLP Machine Learning Classification Models
 Leveraging GPT-2 for Classifying Spam Reviews with Limited Labeled Data via Adversarial Training
-Alternative machine learning models: GPT-2 is somewhat outdated, and there are several other models that would likely outperform it for few-shot classification. 
-T-Few model - the current best-performing model for few-shot text classification, better accuracy than humans & GPT-3 on the RAFT dataset (source).
-Defined in paper Liu et al (2022) - Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning
+**Alternative machine learning models**: GPT-2 is somewhat outdated, and there are several other models that would likely outperform it for few-shot classification. 
+- T-Few model - the current best-performing model for few-shot text classification, better accuracy than humans & GPT-3 on the RAFT dataset (source).
+- Defined in paper Liu et al (2022) - Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning
 Github repository - https://github.com/r-three/t-few
-DistilBERT - a distilled version of BERT: it has 40% fewer parameters, runs 60% faster while preserving 97% of BERT's performance as measured on the GLUE language understanding benchmark.
+- DistilBERT - a distilled version of BERT: it has 40% fewer parameters, runs 60% faster while preserving 97% of BERT's performance as measured on the GLUE language understanding benchmark.
 How Hugging Face achieved a 2x performance boost for Question Answering with DistilBERT in Node.js — The TensorFlow Blog
-LSTMs - long short-term memory recurrent neural networks have been successful at few-shot text classification tasks, although they may not outperform GPT. 
-A C-LSTM Neural Network for Text Classification 
-LSTM for Text Classification in Python
+- LSTMs - long short-term memory recurrent neural networks have been successful at few-shot text classification tasks, although they may not outperform GPT. 
+- A C-LSTM Neural Network for Text Classification 
+- LSTM for Text Classification in Python
